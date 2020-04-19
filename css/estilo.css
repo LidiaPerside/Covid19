@@ -1,57 +1,107 @@
 body{
-    background-color:#ECF8E0;
+    background-color:#ffffff;
     font-family: sans-serif;
  }
  
  #cima{
-    color: #008000;
+    color: #007599;
     text-align: center;
-    border: #E3F6CE 1px solid;
+    border: #ffffff 1px solid;
     border-radius: 10px;
     padding-left: 50px;
     margin-bottom: 30px;
-    box-shadow: #D0F5A9 2px 2px 5px;
+    box-shadow: #e6f9ff 2px 2px 5px;
  }
  
  
  #conteudo{
-     background-color: #F5FBEF;
+     background-color:#ffffff;
      margin-left: 5%;
      margin-right: 5%;
      padding: 2%;
  
  }
 
- #imgCovid{
-    width: 100%;
+#imgCovid{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+    
 }
- 
 #menu{
     font-family: Arial, Helvetica, sans-serif;
      display: flex;
      justify-content: center;
-     color: #008000;
+     color: #007599;
+     margin-left: 5%;
+     margin-right: 5%;
+     border: #ffffff 1px solid;
     
  }
 
- #noticiasTexto{
-    display: flex;
+ #noticias{    
     justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: #ffffff 1px solid;
+    
 
 }
 
+.imagemMedicos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+}
+
+.borda{
+    border-width: 1px 2px 1px 2px;
+    border-style: dashed dotted;
+    color: #007599;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.imagemMapa{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+}
+#audioNoticia{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #ffffff 1px solid;
+}
+
+#videoNoticia{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #ffffff 1px solid;
+}
+
 #noticiasAudio{
-    display:flex;
-    justify-content:space-between;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: #ffffff 1px solid;
 }
 
 #noticiasVideo{
     display: flex;
     justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: #ffffff 1px solid;
 }
  a{
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     color: #00cc00;
+     color:#00b0e6;
      text-decoration: unset;
  
  
@@ -60,22 +110,26 @@ body{
      display: flex;
      justify-content: space-between;
      margin-bottom: 30px;
+     text-align: center;
+     border: #ffffff 1px solid;
+     border-radius: 10px;
+     padding-left: 50px;
+     box-shadow: #e6f9ff 2px 2px 5px;
  
  
- }
- 
- 
- .imgDestaque{
-     width: 40%;
-     margin-left: 20%;
-     margin-bottom: 10px;
  }
  
  h3{
      text-align: center;
      font-size: 30px;
-     color: #008000;
+     color: #007599;
  
+ }
+
+ h2{
+    text-align: center;
+    font-size: 30px;
+    color: #007599;
  }
  
  .notDestaque{
@@ -85,44 +139,42 @@ body{
      text-align: justify;
  }
  
- .imgRedeSocial{
-     width: 2%;
- }
  
  #rodape{
      display: flex;
      justify-content: center;
-     background-color: #E3F6CE;
+     background-color: #ffffff;
      margin-top: 30px;
      margin-left: 2%;
      margin-right: 2%;
      
- }
- 
- .rede{
-     margin-top: 5px;
-     margin-bottom: 5px;
- }
- 
- 
- #receba{
-     color:white;
- }
-
-
- 
- input{
-     width: 100%;
-     height: 30px;
-     margin-bottom: 10px;
- }
+ } 
  
  button{
-     background-color:#e6ffe6;
+     background-color:#e6f9ff;
      width: 100px;
      height: 60px;
-     border: #e6ffe6 1px solid;
+     border: #e6f9ff 1px solid;
      color: white;
      font-size: 20px;
-     box-shadow: #ccffcc 2px 2px 5px;
+     box-shadow: #33cfff 2px 2px 5px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .sobre{
+     margin-right: 5%;
+     margin-left: 5%;
+     color: #007599;
+ }
+
+ #redesSociais{
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ #rodape{
+     color: #007599;
  }
