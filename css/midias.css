@@ -1,0 +1,48 @@
+
+#imgCovid{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+    
+}
+
+.imagemMedicos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+}
+
+.imagemMapa{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+}
+#audioNoticia{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #ffffff 1px solid;
+}
+
+ #videoNoticia{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #ffffff 1px solid;
+}
+ 
+ #redesSociais{
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.imgSaibaMais{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}

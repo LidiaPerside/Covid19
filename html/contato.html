@@ -4,6 +4,7 @@
         <meta charset="UTF-8"/>
         <title>Covid-19 - Contato </title>
         <link rel = "stylesheet" href="../css/estilo.css"/>
+        <link rel = "stylesheet" href="../css/midias.css"/>
     </head>
 
     <body>
@@ -25,14 +26,16 @@
 
     </div>
  
-    <form>
+    <form method="post" id = "idContato" action=" mailto:lidia.perside@hotmail.com">
         <fieldset id = "contato">
             <legend>Entre em Contato</legend>
-            <p><label for = "idNome">Nome: <input type ="text" name = "nome" id = "idNome" size = "20" maxlength="30" placeholder="Nome Completo" /></label></p>
-            <p><label for = "idEmail">E-mail: <input type = "email" name = "email" id = "idEmail" size = "20" maxlength="40" placeholder="Digite um e-mail válido" /></label></p>
-            <p><label>Mensagem: </label></p>
-            
+            <p><label for = "idNome">Nome: <br/><input type ="text" name = "nome" id = "idNome" size = "20" maxlength="30" placeholder="Nome Completo" /></label></p>
+            <p><label for = "idEmail">E-mail: <br/><input type = "email" name = "email" id = "idEmail" size = "20" maxlength="40" placeholder="Digite um e-mail válido" /></label></p>
+            <p><label>Mensagem: </label><br/><textarea name = "msg" id = "idMsg" cols = "45" rows = "5"
+                placeholder="Digite aqui sua mensagem"></textarea></p>
+            <input type = "submit" value = "Enviar"/>
         </fieldset>
+        
     </form>
     </body>
 
